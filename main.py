@@ -11,12 +11,8 @@ from skimage import color
 from sklearn.cluster import KMeans
 import cv2
 from lct_filter import LocalColorTransferFilter
-
-from models import LocalColorTransfer
 from models import WLSFilter
 from torchvision.models.vgg import model_urls
-from utils import *
-
 
 FEATURE_IDS = [1, 6, 11, 20, 29]
 LEFT_SHIFT = (1, 2, 0)
